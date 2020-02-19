@@ -1,0 +1,44 @@
+﻿2020-02-19T17:34:19.7415030-03:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-02-19T17:34:19.7415030-03:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.1.48 in Framework clr40 in x86 mode execution started
+2020-02-19T17:34:19.7415030-03:00;VSTestExecutionThread;Info;TestAdapter Location: C:\NewTest\BookingTest\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-02-19T17:34:19.8085480-03:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\NewTest\BookingTest\bin\Debug\BookingTest.dll
+2020-02-19T17:34:19.8085480-03:00;VSTestExecutionThread;Info;Output folder configured to "C:\NewTest\TestResults" (default)
+2020-02-19T17:34:19.8085480-03:00;VSTestExecutionThread;Info;Profile: 
+2020-02-19T17:34:19.8515770-03:00;VSTestExecutionThread;Info;Log file path: C:\NewTest\TestResults\Unnamed project__2020-02-19T173419.log
+2020-02-19T17:34:19.8845988-03:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2020-02-19T17:34:19.9006094-03:00;Thread#13;Info;Checking license
+2020-02-19T17:34:19.9466408-03:00;Thread#13;Info;Evaluation mode: test execution starts in 12 seconds... (this delay is removed in the registered version)
+2020-02-19T17:34:31.9488431-03:00;Thread#13;Info;Evaluation delay finished.
+2020-02-19T17:34:31.9728368-03:00;Thread#13;Info;License check completed
+2020-02-19T17:34:31.9738372-03:00;Thread#13;Info;starting test run
+2020-02-19T17:34:32.0068607-03:00;Thread#13;Info;Discovering target: Default
+2020-02-19T17:34:32.0068607-03:00;Thread#13;Info;Discovering tests from assembly: C:\NewTest\BookingTest\bin\Debug\BookingTest.dll
+2020-02-19T17:34:32.1299365-03:00;Thread#13;Info;Discovered tests from assembly: C:\NewTest\BookingTest\bin\Debug\BookingTest.dll
+2020-02-19T17:34:32.1319379-03:00:Test Suite Dump
+2020-02-19T17:34:32.1329382-03:00:#0: Unnamed project/ - 
+2020-02-19T17:34:32.1339368-03:00:End: Test Suite Dump
+2020-02-19T17:34:32.1599541-03:00:Thread#0:Scheduler: get next test for thread 0
+2020-02-19T17:34:32.1629583-03:00:Thread#:Scheduler: at the end of normal test queue
+2020-02-19T17:34:32.1629583-03:00:Thread#0:Scheduler: enumerator for thread is at end
+2020-02-19T17:34:32.1629583-03:00:Thread#0:Scheduler: No more tests for thread
+2020-02-19T17:34:32.1659581-03:00:Trying to cancel thread
+2020-02-19T17:34:32.1659581-03:00:Thread cancelled
+2020-02-19T17:34:32.1739635-03:00:Thread#-1:Scheduler: get next test for thread -1
+2020-02-19T17:34:32.1739635-03:00:Thread#:Scheduler: at the end of normal test queue
+2020-02-19T17:34:32.1739635-03:00:Thread#-1:Scheduler: enumerator for thread is at end
+2020-02-19T17:34:32.1749639-03:00;Thread#13;Info;test run finished
+2020-02-19T17:34:32.1759660-03:00;Thread#13;Info;publishing test results
+2020-02-19T17:34:32.2199954-03:00;Thread#13;Info;test results published
+2020-02-19T17:34:32.2199954-03:00;Thread#13;Info;generating reports
+2020-02-19T17:34:32.3030505-03:00;Thread#13;Info;Starting external report generation process
+2020-02-19T17:34:59.7216055-03:00;Thread#13;Error;Could not generate test run result reports. An error occurred in the generator.
+2020-02-19T17:34:59.7216055-03:00;Thread#13;Error;External program returned exit code '-2'
+2020-02-19T17:34:59.7216055-03:00;Thread#13;Info;Failed generating reports
+2020-02-19T17:34:59.7346139-03:00:Total: 0
+2020-02-19T17:34:59.7366153-03:00:Succeeded: 0
+2020-02-19T17:34:59.7376156-03:00:Ignored: 0
+2020-02-19T17:34:59.7376156-03:00:Pending: 0
+2020-02-19T17:34:59.7386166-03:00:Skipped: 0
+2020-02-19T17:34:59.7396170-03:00:Failed: 0
+2020-02-19T17:34:59.7516256-03:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+========== End of log file ==========

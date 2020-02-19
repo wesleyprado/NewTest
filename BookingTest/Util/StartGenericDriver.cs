@@ -1,10 +1,9 @@
-﻿using NUnit.Framework;
-using OpenQA.Selenium;
+﻿using OpenQA.Selenium;
 using TechTalk.SpecFlow;
 
 namespace BookingTest.Util
 {
-    [TestFixture]
+   
     [Binding]
     public class StartGenericDriver
     {
