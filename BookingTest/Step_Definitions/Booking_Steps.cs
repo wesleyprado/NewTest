@@ -8,19 +8,13 @@ namespace BookingTest.Step_Definitions
     [Binding]
     public class Booking_Steps
     {
-        protected readonly ScenarioContext scenarioContext;
         protected readonly IWebDriver Browser;
         private Booking Booking;
-
-        public Booking_Steps(ScenarioContext injectedContext)
-        {
-            this.scenarioContext = scenarioContext ?? throw new ArgumentNullException("scenarioContext");
-        }
 
         [Given(@"I am in the Booking home page")]
         public void GivenIAmInTheBookingHomePage()
         {
-            Booking = new Booking(Browser);
+            Booking = new Booking();
             Booking.GivenIAmInTheBookingHomePage();
         }
         [When(@"I set up the data information")]

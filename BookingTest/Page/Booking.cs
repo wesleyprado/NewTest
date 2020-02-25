@@ -9,18 +9,13 @@ namespace BookingTest.Page_Objects
 {
     public class Booking : BaseUITest
     {
-        public string BaseLogin { get; set; }
-        public Booking(IWebDriver driver)
+        public Booking()
         {
-            _driver = driver;
-            PageFactory.InitElements(this._driver, this);
-            BaseLogin = "www.booking.com";
         }
 
         public void GivenIAmInTheBookingHomePage()
         {
             SetupBrowser();
-            _driver.Navigate().GoToUrl(BaseLogin);
         }
 
         public void WhenISetUpTheDataInformation()
